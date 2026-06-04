@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# このプロジェクト固有（サイトと無関係なファイル）
+beauty_plan.py
+beauty_treatment_plan.html
+CLAUDE.md
+.claude/
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo

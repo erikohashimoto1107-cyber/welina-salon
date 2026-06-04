@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Welina ウェリナ｜女性専用プライベートエステサロン。フェイシャル・ボディケア。完全予約制・完全個室。" />
+<title>Welina ウェリナ｜フェイシャル&ボディエステ｜プライベートサロン</title>
+<!-- OGP -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Welina ウェリナ｜フェイシャル&ボディエステ｜プライベートサロン" />
+<meta property="og:description" content="女性専用プライベートエステサロン。フェイシャル・ボディケア。完全予約制・完全個室。" />
+<meta property="og:image" content="assets/hero-massage.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Welina ウェリナ｜フェイシャル&ボディエステ" />
+<meta name="twitter:description" content="女性専用プライベートエステサロン。フェイシャル・ボディケア。完全予約制・完全個室。" />
+<meta name="twitter:image" content="assets/hero-massage.jpeg" />
+<link rel="icon" href="assets/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Allura&family=Jost:wght@300;400;500&display=swap" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="teal" data-font="classic">
+
+<!-- ============== NAV ============== -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav__brand">
+    <span class="nav__logo"><img src="assets/logo.png" alt="Welina" /></span>
+    <span class="nav__brand-text">
+      <span class="nav__brand-en">Welina</span>
+      <span class="nav__brand-jp">フェイシャル &amp; ボディエステ</span>
+    </span>
+  </a>
+  <div class="nav__links">
+    <a href="#concept">コンセプト</a>
+    <a href="#therapist">セラピスト</a>
+    <a href="#menu">メニュー</a>
+    <a href="#flow">施術の流れ</a>
+    <a href="#voices">お客様の声</a>
+    <a href="#access">アクセス</a>
+  </div>
+  <button class="nav__hamburger" id="navHamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="navDrawer">
+    <span></span><span></span><span></span>
+  </button>
+  <a href="#cta" class="nav__cta">ご予約</a>
+</nav>
+
+<!-- SPドロワー -->
+<div class="nav__drawer" id="navDrawer" aria-hidden="true">
+  <a href="#concept">コンセプト</a>
+  <a href="#therapist">セラピスト</a>
+  <a href="#menu">メニュー</a>
+  <a href="#flow">施術の流れ</a>
+  <a href="#voices">お客様の声</a>
+  <a href="#access">アクセス</a>
+  <a href="#cta" class="nav__drawer-cta">ご予約</a>
+</div>
+
+<!-- ============== HERO ============== -->
+<section class="hero" id="top">
+  <img class="hero__deco hero__deco--monstera-tl" src="assets/leaves-monstera.png" alt="" aria-hidden="true" />
+  <img class="hero__deco hero__deco--plumeria-bl" src="assets/plumeria-white.png" alt="" aria-hidden="true" />
+
+  <div class="hero__content reveal">
+    <div class="hero__eyebrow">Your Beauty Journey Starts Here</div>
+    <h1 class="hero__title">
+      素肌から、<br />
+      あなたを<span class="hero__title-em">輝</span>かせる。
+    </h1>
+    <div class="hero__title-sub">Facial &amp; Body Esthetics</div>
+    <p class="hero__lede">
+      ひとりひとりの肌に向き合い、内側から光る美しさへ導く。<br />
+      女性のための、完全予約制プライベートエステサロン。<br />
+      あなただけのケアで、本来の美しさを取り戻しましょう。
+    </p>
+    <div class="hero__actions">
+      <a href="#cta" class="btn-primary">初回のご予約はこちら</a>
+      <a href="#menu" class="btn-ghost">メニューを見る</a>
+    </div>
+  </div>
+
+  <div class="hero__visual reveal">
+    <div class="hero__visual-frame">
+      <img src="assets/hero-massage.jpeg" alt="エステ施術風景" />
+    </div>
+    <img class="hero__visual-deco hero__visual-deco--plumeria" src="assets/plumeria-white.png" alt="" aria-hidden="true" />
+    <img class="hero__visual-deco hero__visual-deco--leaves" src="assets/leaves-monstera.png" alt="" aria-hidden="true" />
+    <div class="hero__visual-badge">
+      <img src="assets/logo.png" alt="Welina Logo" />
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span>SCROLL</span>
+    <span class="hero__scroll-line"></span>
+  </div>
+</section>
+
+<!-- ============== CONCEPT ============== -->
+<section class="section about" id="concept">
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Our Concept</div>
+      <h2 class="section__title">美しさは、あなたの中にある。</h2>
+      <div class="section__rule"></div>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__image reveal">
+        <img src="assets/photo-oil-almond.png" alt="厳選オイルとスキンケアプロダクト" loading="lazy" />
+        <div class="about__image-frame" aria-hidden="true"></div>
+        <img class="about__image-deco" src="assets/plumeria-blue.png" alt="" aria-hidden="true" loading="lazy" />
+      </div>
+
+      <div class="about__copy reveal">
+        <h3>肌の声を聴き、<br />その人だけの美しさへ。<em>Aloha.</em></h3>
+        <p>
+          Welinaは、「美しさは特別なものではなく、本来あなたの中にあるもの」という信念のもとに生まれたサロンです。
+          肌のコンディションは日々変わります。だからこそ、毎回丁寧なカウンセリングを重ね、
+          その日のあなたの肌に最適なケアを組み立てます。
+        </p>
+        <p>
+          ハワイのオーガニックオイルと植物由来の美容成分を取り入れながら、
+          フェイシャルからボディまでトータルに美しさをサポート。
+          「肌が変わった」という実感を、ぜひ体験してください。
+        </p>
+        <div class="about__quote">
+          肌に触れるたびに、あなたの美しさが目を覚ます。<br />
+          それがWelinaのエステです。
+          <span class="about__quote-en">— Beauty awakens with every touch.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== 3 VALUES ============== -->
+<section class="section benefits">
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Three Values</div>
+      <h2 class="section__title">Welinaの3つのこだわり</h2>
+      <div class="section__rule"></div>
+      <p class="section__lede">
+        肌への真摯なアプローチと、心から寛げる空間づくり。<br />
+        Welinaはその両方を大切にしています。
+      </p>
+    </div>
+
+    <div class="benefits__grid">
+      <article class="benefit-card reveal">
+        <img class="benefit-card__icon" src="assets/icon-dropper.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="benefit-card__num">No. 01</div>
+        <h3 class="benefit-card__title">オーダーメイドの肌ケア</h3>
+        <p class="benefit-card__text">
+          毎回のカウンセリングで肌状態を確認。<br />
+          あなたの肌だけに最適化された施術で、確かな変化を。
+        </p>
+      </article>
+      <article class="benefit-card reveal">
+        <img class="benefit-card__icon" src="assets/icon-leaves.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="benefit-card__num">No. 02</div>
+        <h3 class="benefit-card__title">厳選オーガニック成分</h3>
+        <p class="benefit-card__text">
+          ハワイ産オーガニックオイルと植物由来の美容成分を使用。<br />
+          肌への負担を最小限に、最大限のうるおいを。
+        </p>
+      </article>
+      <article class="benefit-card reveal">
+        <img class="benefit-card__icon" src="assets/icon-woman-heart.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="benefit-card__num">No. 03</div>
+        <h3 class="benefit-card__title">内側から輝く美しさへ</h3>
+        <p class="benefit-card__text">
+          肌だけでなく心もゆるめるトリートメント。<br />
+          定期的なケアで、素肌美人への近道を歩みましょう。
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== BANNER DIVIDER ============== -->
+<div class="banner-divider" aria-hidden="true">
+  <img src="assets/banner-floral.png" alt="" loading="lazy" />
+</div>
+
+<!-- ============== THERAPIST ============== -->
+<section class="section therapist" id="therapist">
+  <img class="therapist__deco" src="assets/plumeria-white.png" alt="" aria-hidden="true" loading="lazy" />
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Your Therapist</div>
+      <h2 class="section__title">施術担当者のご紹介</h2>
+      <div class="section__rule"></div>
+    </div>
+
+    <div class="therapist__grid">
+      <div class="therapist__photo reveal">
+        <img src="assets/hero-massage.jpeg" alt="セラピスト施術シーン" loading="lazy" />
+        <div class="therapist__photo-badge">
+          <img src="assets/logo.png" alt="Welina" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="therapist__profile reveal">
+        <div class="therapist__name-en">Misaki</div>
+        <div class="therapist__name-jp">オーナーセラピスト <strong>○○ 美咲</strong></div>
+        <div class="therapist__badges">
+          <span class="therapist__badge">国際エステティシャン資格</span>
+          <span class="therapist__badge">アロマセラピスト認定</span>
+          <span class="therapist__badge">リンパドレナージュ認定</span>
+        </div>
+        <p class="therapist__text">
+          ハワイでロミロミに出会い、手のひらを通じた施術の力と、
+          香りのもつ深い癒しに魅了されました。
+          その後、フェイシャルケアやスキンケアの技術を学び、
+          「お客様ひとりひとりの肌に向き合いたい」という想いでWelinaを開業しました。
+        </p>
+        <p class="therapist__text">
+          毎回丁寧なカウンセリングで肌の声を聴き、その日に最適なケアを提案しています。
+          不安なことがあれば何でもお気軽にご相談ください。
+          あなたが心から安心してお任せいただけるセラピストでありたいと思っています。
+        </p>
+        <div class="therapist__quote">
+          「肌が変わると、気持ちが変わる。<br />気持ちが変わると、毎日が変わる。」
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== MENU ============== -->
+<section class="section menu" id="menu">
+  <img class="menu__plumeria-l" src="assets/plumeria-white.png" alt="" aria-hidden="true" loading="lazy" />
+  <img class="menu__plumeria-r" src="assets/plumeria-white.png" alt="" aria-hidden="true" loading="lazy" />
+
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Menu &amp; Price</div>
+      <h2 class="section__title">メニュー・料金</h2>
+      <div class="section__rule"></div>
+      <p class="section__lede">
+        肌の悩みに合わせて選べる、フェイシャル&amp;ボディのコースをご用意。<br />
+        初回の方にはカウンセリングを含む90分コースがおすすめです。
+      </p>
+    </div>
+
+    <div class="menu__grid">
+      <article class="menu-item reveal">
+        <div class="menu-item__badge">人気</div>
+        <div class="menu-item__img">
+          <img src="assets/photo-spa-candles.png" alt="シグネチャー フェイシャル" loading="lazy" />
+        </div>
+        <div class="menu-item__body">
+          <div class="menu-item__en">Signature Facial</div>
+          <h3 class="menu-item__title">シグネチャー フェイシャル</h3>
+          <p class="menu-item__desc">
+            クレンジング・角質ケア・美容液導入・マスクまで、肌をトータルにケアする基本のフルコース。
+            初めての方に特におすすめです。
+          </p>
+          <div class="menu-item__meta">
+            <span class="menu-item__duration">90 min</span>
+            <span class="menu-item__price">¥13,200<small>(税込)</small></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-item reveal">
+        <div class="menu-item__img">
+          <img src="assets/photo-oil-almond.png" alt="モイスチャー フェイシャル" loading="lazy" />
+        </div>
+        <div class="menu-item__body">
+          <div class="menu-item__en">Moisture Facial</div>
+          <h3 class="menu-item__title">モイスチャー フェイシャル</h3>
+          <p class="menu-item__desc">
+            お忙しい方に。濃密保湿に特化したフェイシャルで、
+            乾燥・くすみに悩む肌にうるおいを集中補給します。
+          </p>
+          <div class="menu-item__meta">
+            <span class="menu-item__duration">60 min</span>
+            <span class="menu-item__price">¥8,800<small>(税込)</small></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-item reveal">
+        <div class="menu-item__badge">贅沢</div>
+        <div class="menu-item__img">
+          <img src="assets/photo-beach.png" alt="プレミアム エイジングケア" loading="lazy" />
+        </div>
+        <div class="menu-item__body">
+          <div class="menu-item__en">Premium Aging Care</div>
+          <h3 class="menu-item__title">プレミアム エイジングケア</h3>
+          <p class="menu-item__desc">
+            フェイシャル＋デコルテ&amp;ネック集中ケア＋ヘッドマッサージ付きの贅沢コース。
+            ハリ・ツヤ・リフトアップを求める方に。
+          </p>
+          <div class="menu-item__meta">
+            <span class="menu-item__duration">120 min</span>
+            <span class="menu-item__price">¥17,600<small>(税込)</small></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="menu-item reveal">
+        <div class="menu-item__img menu-item__img--product">
+          <img src="assets/product-dropper.png" alt="ボディ リラクゼーション" loading="lazy" />
+        </div>
+        <div class="menu-item__body">
+          <div class="menu-item__en">Body Relaxation</div>
+          <h3 class="menu-item__title">ボディ リラクゼーション</h3>
+          <p class="menu-item__desc">
+            ハワイアンオーガニックオイルで全身をほぐすボディ専用コース。
+            むくみ・疲れに。フットバス付き。
+          </p>
+          <div class="menu-item__meta">
+            <span class="menu-item__duration">60 min</span>
+            <span class="menu-item__price">¥8,800<small>(税込)</small></span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="menu__note">
+      ※ オプション（ヘッドスパ +¥2,200 / ホットストーン +¥3,300 / アロマバス +¥1,100）もご用意しています。<br />
+      ※ 初回ご利用の方は、カウンセリング時間として＋15分ほど頂戴いたします。
+    </p>
+  </div>
+</section>
+
+<!-- ============== FEATURES ============== -->
+<section class="section features" id="features">
+  <img class="features__deco" src="assets/leaves-monstera.png" alt="" aria-hidden="true" loading="lazy" />
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Why Welina</div>
+      <h2 class="section__title">Welinaが選ばれる4つの理由</h2>
+      <div class="section__rule"></div>
+      <p class="section__lede">
+        女性のための、女性によるプライベート空間。<br />
+        誰にも気を遣わず、ただ自分のために過ごせる時間をご用意しました。
+      </p>
+    </div>
+
+    <div class="features__grid">
+      <div class="feature reveal">
+        <img class="feature__icon" src="assets/icon-woman-bun.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="feature__no">FEATURE 01</div>
+        <h3 class="feature__title">女性専用サロン</h3>
+        <p class="feature__text">
+          スタッフ・お客様ともに<br />女性のみ。<br />安心してお寛ぎいただけます。
+        </p>
+      </div>
+      <div class="feature reveal">
+        <img class="feature__icon" src="assets/icon-door.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="feature__no">FEATURE 02</div>
+        <h3 class="feature__title">完全個室・貸切制</h3>
+        <p class="feature__text">
+          完全個室・貸切制。<br />他のお客様と顔を合わせず、<br />ご自分のペースで。
+        </p>
+      </div>
+      <div class="feature reveal">
+        <img class="feature__icon" src="assets/icon-calendar.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="feature__no">FEATURE 03</div>
+        <h3 class="feature__title">完全予約制</h3>
+        <p class="feature__text">
+          おひとりおひとりに<br />じっくり向き合うため、<br />ご予約制で承ります。
+        </p>
+      </div>
+      <div class="feature reveal">
+        <img class="feature__icon" src="assets/icon-dropper.png" alt="" aria-hidden="true" loading="lazy" />
+        <div class="feature__no">FEATURE 04</div>
+        <h3 class="feature__title">厳選コスメ使用</h3>
+        <p class="feature__text">
+          ハワイ産オーガニックを中心に<br />肌に優しい厳選素材のみ。<br />敏感肌の方も安心です。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FLOW ============== -->
+<section class="section flow" id="flow">
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Treatment Flow</div>
+      <h2 class="section__title">施術の流れ</h2>
+      <div class="section__rule"></div>
+      <p class="section__lede">
+        初めての方も安心。ご来店からお見送りまで、<br />
+        丁寧にご案内いたします。
+      </p>
+    </div>
+
+    <div class="flow__steps">
+      <div class="flow-step reveal">
+        <div class="flow-step__circle">
+          <span class="flow-step__no">1</span>
+          <img src="assets/icon-door.png" alt="" aria-hidden="true" loading="lazy" />
+        </div>
+        <h4 class="flow-step__title">ご来店</h4>
+        <p class="flow-step__text">プルメリアの香りと音楽でお出迎え。まずはお着替えをどうぞ。</p>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-step__circle">
+          <span class="flow-step__no">2</span>
+          <img src="assets/icon-woman-heart.png" alt="" aria-hidden="true" loading="lazy" />
+        </div>
+        <h4 class="flow-step__title">カウンセリング</h4>
+        <p class="flow-step__text">お肌の状態・お悩み・ご希望を丁寧にお伺いし、その日の施術内容を組み立てます。</p>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-step__circle">
+          <span class="flow-step__no">3</span>
+          <img src="assets/icon-dropper.png" alt="" aria-hidden="true" loading="lazy" />
+        </div>
+        <h4 class="flow-step__title">肌診断・準備</h4>
+        <p class="flow-step__text">肌質を確認し、その日のお肌に合ったオイル・美容成分を選びます。</p>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-step__circle">
+          <span class="flow-step__no">4</span>
+          <img src="assets/icon-hand.png" alt="" aria-hidden="true" loading="lazy" />
+        </div>
+        <h4 class="flow-step__title">施術</h4>
+        <p class="flow-step__text">クレンジングから仕上げのマスクまで、じっくりと丁寧にケアします。</p>
+      </div>
+      <div class="flow-step reveal">
+        <div class="flow-step__circle">
+          <span class="flow-step__no">5</span>
+          <img src="assets/icon-leaves.png" alt="" aria-hidden="true" loading="lazy" />
+        </div>
+        <h4 class="flow-step__title">アフターケア</h4>
+        <p class="flow-step__text">ハーブティーを召し上がりながら、ホームケアのアドバイスもお伝えします。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== VOICES ============== -->
+<section class="section voices" id="voices">
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Customers' Voice</div>
+      <h2 class="section__title">お客様の声</h2>
+      <div class="section__rule"></div>
+      <p class="section__lede">
+        Welinaにご来店いただいたお客様から、たくさんの嬉しいお声をいただいています。
+      </p>
+    </div>
+
+    <div class="voices__grid">
+      <article class="voice reveal">
+        <div class="voice__mark" aria-hidden="true">"</div>
+        <div class="voice__stars" aria-label="評価: 星5つ">★★★★★</div>
+        <h3 class="voice__title">肌がもちもちになりました</h3>
+        <p class="voice__text">
+          乾燥肌で長年悩んでいましたが、施術後の翌朝の肌がこれまでと全然違いました。
+          毎回カウンセリングで悩みを聞いてもらえるので、来るたびに肌が良くなっている気がします。
+        </p>
+        <div class="voice__meta">
+          <div class="voice__avatar"><img src="assets/icon-woman-bun.png" alt="" aria-hidden="true" loading="lazy" /></div>
+          <div class="voice__author">
+            Y.M 様
+            <small>30代・リピーター</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="voice reveal">
+        <div class="voice__mark" aria-hidden="true">"</div>
+        <div class="voice__stars" aria-label="評価: 星5つ">★★★★★</div>
+        <h3 class="voice__title">月一の自分へのご褒美</h3>
+        <p class="voice__text">
+          仕事で疲れた体と心を、ここでリセットさせてもらっています。
+          施術が丁寧で、毎回どこをケアして欲しいかを丁寧に聞いてくださるのが嬉しい。
+          肌の調子も上がってきています。
+        </p>
+        <div class="voice__meta">
+          <div class="voice__avatar"><img src="assets/icon-woman-heart.png" alt="" aria-hidden="true" loading="lazy" /></div>
+          <div class="voice__author">
+            K.S 様
+            <small>40代・3回目ご利用</small>
+          </div>
+        </div>
+      </article>
+
+      <article class="voice reveal">
+        <div class="voice__mark" aria-hidden="true">"</div>
+        <div class="voice__stars" aria-label="評価: 星5つ">★★★★★</div>
+        <h3 class="voice__title">完全個室で安心できました</h3>
+        <p class="voice__text">
+          エステは初めてで不安でしたが、カウンセリングがとても丁寧で安心できました。
+          個室なので周りを気にせずリラックスできて、肌もつるつるに。また予約します！
+        </p>
+        <div class="voice__meta">
+          <div class="voice__avatar"><img src="assets/icon-woman-bun.png" alt="" aria-hidden="true" loading="lazy" /></div>
+          <div class="voice__author">
+            A.T 様
+            <small>20代・初回ご利用</small>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FAQ ============== -->
+<section class="section faq" id="faq">
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">FAQ</div>
+      <h2 class="section__title">よくあるご質問</h2>
+      <div class="section__rule"></div>
+      <p class="section__lede">
+        初めてのご来店でも安心していただけるよう、<br />
+        よくいただくご質問をまとめました。
+      </p>
+    </div>
+
+    <div class="faq__list reveal">
+      <div class="faq-item">
+        <button class="faq-item__question" aria-expanded="false">
+          <span class="faq-item__q"><span class="faq-item__q-mark">Q</span>初めてですが、どのコースを選べばいいですか？</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__answer" aria-hidden="true">
+          <p>初回の方には「シグネチャー フェイシャル（90分）」をおすすめしています。カウンセリングでお肌の状態を詳しく確認し、最適な施術内容に調整します。ご不安な点はご予約時にお気軽にご相談ください。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-item__question" aria-expanded="false">
+          <span class="faq-item__q"><span class="faq-item__q-mark">Q</span>どのくらいの頻度で通うといいですか？</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__answer" aria-hidden="true">
+          <p>肌のターンオーバーサイクル（約28日）に合わせて、月1〜2回のご来店をおすすめしています。定期的なケアを続けることで、より大きな変化を実感いただけます。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-item__question" aria-expanded="false">
+          <span class="faq-item__q"><span class="faq-item__q-mark">Q</span>敏感肌・乾燥肌でも大丈夫ですか？</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__answer" aria-hidden="true">
+          <p>はい、もちろんです。施術前のカウンセリングで肌状態を確認し、敏感肌・乾燥肌の方に合わせた低刺激な施術と成分を選びます。アレルギーや肌荒れがある場合は事前にお知らせください。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-item__question" aria-expanded="false">
+          <span class="faq-item__q"><span class="faq-item__q-mark">Q</span>予約の方法を教えてください。</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__answer" aria-hidden="true">
+          <p>LINE・お電話・Instagram DMよりご予約いただけます。初回の方はカウンセリングシートをお送りしますので、事前にご記入いただくとスムーズです。お気軽にご連絡ください。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-item__question" aria-expanded="false">
+          <span class="faq-item__q"><span class="faq-item__q-mark">Q</span>キャンセルポリシーはありますか？</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__answer" aria-hidden="true">
+          <p>前日までのキャンセルは無料です。当日キャンセルはご予約料金の50%を頂戴いたします。ご都合が悪くなりましたら、なるべくお早めにご連絡いただけますと幸いです。</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-item__question" aria-expanded="false">
+          <span class="faq-item__q"><span class="faq-item__q-mark">Q</span>男性でも利用できますか？</span>
+          <span class="faq-item__icon" aria-hidden="true"></span>
+        </button>
+        <div class="faq-item__answer" aria-hidden="true">
+          <p>当サロンは女性専用となっております。すべての施術・ご予約は女性のお客様のみ承っております。ご理解のほどよろしくお願いいたします。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CTA ============== -->
+<section class="cta" id="cta">
+  <img class="cta__deco-tl" src="assets/plumeria-white.png" alt="" aria-hidden="true" loading="lazy" />
+  <img class="cta__deco-br" src="assets/plumeria-white.png" alt="" aria-hidden="true" loading="lazy" />
+
+  <div class="reveal">
+    <div class="cta__eyebrow">Book Your Beauty Time</div>
+    <h2 class="cta__title">あなただけの、美しい時間を。</h2>
+    <p class="cta__text">
+      ご予約はLINE・お電話・Instagram DMより承っております。<br />
+      ご質問・ご相談だけでもお気軽にどうぞ。<br />
+      お会いできる日を楽しみにお待ちしております。
+    </p>
+    <div class="cta__buttons">
+      <a href="#" class="btn-light">LINEで予約する</a>
+      <a href="#" class="btn-light btn-light--outline">Instagram DM</a>
+    </div>
+    <a href="tel:080-0000-0000" class="cta__contact">
+      <span>TEL</span>
+      <strong>080-0000-0000</strong>
+    </a>
+  </div>
+</section>
+
+<!-- ============== ACCESS ============== -->
+<section class="section access" id="access">
+  <div class="section__inner">
+    <div class="reveal">
+      <div class="section__eyebrow">Access &amp; Hours</div>
+      <h2 class="section__title">サロン情報・アクセス</h2>
+      <div class="section__rule"></div>
+    </div>
+
+    <div class="access__grid">
+      <div class="access__info reveal">
+        <div class="access__row">
+          <span class="access__label">店名<span class="access__label-en">Salon</span></span>
+          <span class="access__value">フェイシャル &amp; ボディエステ ウェリナ<br />Facial &amp; Body Esthetics Welina</span>
+        </div>
+        <div class="access__row">
+          <span class="access__label">住所<span class="access__label-en">Address</span></span>
+          <span class="access__value">〒000-0000<br />東京都○○区○○ 1-2-3 ○○ビル 4F</span>
+        </div>
+        <div class="access__row">
+          <span class="access__label">最寄駅<span class="access__label-en">Station</span></span>
+          <span class="access__value">○○線「○○駅」より徒歩5分</span>
+        </div>
+        <div class="access__row">
+          <span class="access__label">営業時間<span class="access__label-en">Hours</span></span>
+          <span class="access__value">10:00 – 20:00（最終受付 18:30）</span>
+        </div>
+        <div class="access__row">
+          <span class="access__label">定休日<span class="access__label-en">Closed</span></span>
+          <span class="access__value">不定休（カレンダーをご確認ください）</span>
+        </div>
+        <div class="access__row">
+          <span class="access__label">予約方法<span class="access__label-en">Booking</span></span>
+          <span class="access__value">LINE・お電話・Instagram DM</span>
+        </div>
+      </div>
+
+      <div class="access__map reveal">
+        <div class="access__map-placeholder" role="img" aria-label="地図（プレースホルダー）">
+          <div class="access__map-pin" aria-hidden="true"></div>
+          <div class="access__map-label">
+            Welina<br />
+            <small>map placeholder</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="footer">
+  <img class="footer__leaves" src="assets/leaves-monstera.png" alt="" aria-hidden="true" loading="lazy" />
+  <div class="footer__logo"><img src="assets/logo.png" alt="Welina" loading="lazy" /></div>
+  <div class="footer__brand-en">Welina</div>
+  <div class="footer__brand-jp">フェイシャル &amp; ボディエステ ウェリナ</div>
+  <nav class="footer__links" aria-label="フッターナビゲーション">
+    <a href="#concept">コンセプト</a>
+    <a href="#therapist">セラピスト</a>
+    <a href="#menu">メニュー</a>
+    <a href="#flow">施術の流れ</a>
+    <a href="#voices">お客様の声</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#access">アクセス</a>
+    <a href="#cta">ご予約</a>
+  </nav>
+  <div class="footer__copy">© 2026 Welina Facial &amp; Body Esthetics. Aloha &amp; Mahalo.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
