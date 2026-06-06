@@ -1083,7 +1083,7 @@ body.drawer-open .nav__cta {
   font-family: var(--font-jp-serif);
   font-size: 13px;
   color: var(--ink-soft);
-  letter-spacing: 0.25em;
+  letter-spacing: 0.05em;
   margin-bottom: 20px;
 }
 .therapist__name-jp strong {
@@ -1091,6 +1091,7 @@ body.drawer-open .nav__cta {
   color: var(--teal-700);
   margin-left: 8px;
   font-weight: 500;
+  letter-spacing: 0;
 }
 .therapist__badges {
   display: flex;
