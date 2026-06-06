@@ -822,11 +822,9 @@ body.drawer-open .nav__cta {
 .cta {
   position: relative;
   padding: 140px 6vw;
-  background:
-    linear-gradient(135deg, rgba(46, 139, 146, 0.85), rgba(36, 111, 117, 0.9)),
-    url("assets/photo-beach.png") center/cover;
+  background: linear-gradient(180deg, var(--teal-100) 0%, var(--teal-200) 100%);
   overflow: hidden;
-  color: white;
+  color: var(--teal-900);
   text-align: center;
 }
 .cta__deco-tl { position: absolute; top: 20px; left: 30px; width: 200px; opacity: 0.85; pointer-events: none; }
@@ -835,7 +833,7 @@ body.drawer-open .nav__cta {
 .cta__eyebrow {
   font-family: var(--font-en-script);
   font-size: 42px;
-  color: var(--gold-soft);
+  color: var(--gold);
   margin-bottom: 8px;
 }
 .cta__title {
@@ -844,6 +842,7 @@ body.drawer-open .nav__cta {
   font-weight: 400;
   letter-spacing: 0.15em;
   margin-bottom: 24px;
+  color: var(--teal-900);
   position: relative; z-index: 2;
 }
 .cta__text {
@@ -852,7 +851,7 @@ body.drawer-open .nav__cta {
   line-height: 2.2;
   max-width: 580px;
   margin: 0 auto 40px;
-  opacity: 0.92;
+  color: var(--teal-700);
   position: relative; z-index: 2;
 }
 .cta__buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; z-index: 2; }
@@ -865,17 +864,17 @@ body.drawer-open .nav__cta {
   background: white;
   color: var(--teal-700);
   border-radius: 999px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+  box-shadow: var(--shadow-md);
   transition: transform 0.25s ease;
 }
 .btn-light:hover { transform: translateY(-2px); }
 .btn-light--outline {
   background: transparent;
-  color: white;
-  border: 1px solid rgba(255,255,255,0.5);
+  color: var(--teal-700);
+  border: 1px solid var(--teal-500);
   box-shadow: none;
 }
-.btn-light--outline:hover { background: rgba(255,255,255,0.1); }
+.btn-light--outline:hover { background: rgba(255,255,255,0.45); }
 
 .cta__contact {
   margin-top: 40px;
