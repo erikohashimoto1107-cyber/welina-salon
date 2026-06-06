@@ -369,6 +369,12 @@ body.drawer-open .nav__cta {
   margin: 0 auto 64px;
 }
 
+/* コンセプトセクションのタイトルは長いため文字サイズを調整 */
+#concept .section__title {
+  font-size: clamp(14px, 3.8vw, 38px);
+  letter-spacing: 0.05em;
+}
+
 /* =================== ABOUT =================== */
 .about {
   background: linear-gradient(180deg, var(--cream) 0%, #F3F9F9 100%);
