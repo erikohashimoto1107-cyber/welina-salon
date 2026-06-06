@@ -375,6 +375,20 @@ body.drawer-open .nav__cta {
   letter-spacing: 0.05em;
 }
 
+/* コンセプト画像：ヒーローと同じアーチ型フレーム（上が半円）
+   正方形に近い比率にして顔の拡大を抑える */
+#concept .about__image {
+  aspect-ratio: 1 / 1;
+  border-radius: 50% 50% var(--radius-lg) var(--radius-lg) / 45% 45% var(--radius-lg) var(--radius-lg);
+}
+#concept .about__image > img:not(.about__image-deco) {
+  border-radius: inherit;
+  object-position: center 30%;
+}
+#concept .about__image-frame {
+  border-radius: 50% 50% var(--radius-lg) var(--radius-lg) / 45% 45% var(--radius-lg) var(--radius-lg);
+}
+
 /* =================== ABOUT =================== */
 .about {
   background: linear-gradient(180deg, var(--cream) 0%, #F3F9F9 100%);
