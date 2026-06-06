@@ -710,7 +710,7 @@ body.drawer-open .nav__cta {
   position: relative;
   z-index: 1;
 }
-.flow-step__circle img { width: 82%; height: 82%; object-fit: contain; }
+.flow-step__circle img { width: 95%; height: 95%; object-fit: contain; }
 .flow-step__no {
   position: absolute; top: -8px; right: 8px;
   background: var(--teal-400);
