@@ -183,7 +183,7 @@ body.drawer-open .nav__cta {
 .hero__deco { position: absolute; pointer-events: none; opacity: 0.7; }
 .hero__deco--monstera-tl { top: -40px; left: -50px; width: 260px; transform: rotate(-30deg); opacity: 0.5; }
 .hero__deco--plumeria-tr { top: 60px; right: -30px; width: 200px; }
-.hero__deco--plumeria-bl { bottom: -30px; left: -40px; width: 180px; opacity: 0.55; }
+.hero__deco--plumeria-bl { bottom: -30px; left: -40px; width: 180px; opacity: 0.95; }
 
 .hero__content {
   position: relative; z-index: 2;
@@ -567,8 +567,8 @@ body.drawer-open .nav__cta {
 
 /* =================== MENU =================== */
 .menu { background: var(--cream); position: relative; }
-.menu__plumeria-l { position: absolute; top: 60px; left: -40px; width: 200px; opacity: 0.5; pointer-events: none; }
-.menu__plumeria-r { position: absolute; bottom: 60px; right: -60px; width: 240px; opacity: 0.5; transform: scaleX(-1); pointer-events: none; }
+.menu__plumeria-l { position: absolute; top: 60px; left: -40px; width: 200px; opacity: 0.9; pointer-events: none; }
+.menu__plumeria-r { position: absolute; bottom: 60px; right: -60px; width: 240px; opacity: 0.9; transform: scaleX(-1); pointer-events: none; }
 
 .menu__grid {
   display: grid;
@@ -829,8 +829,8 @@ body.drawer-open .nav__cta {
   color: white;
   text-align: center;
 }
-.cta__deco-tl { position: absolute; top: 20px; left: 30px; width: 200px; opacity: 0.45; pointer-events: none; }
-.cta__deco-br { position: absolute; bottom: 20px; right: 30px; width: 220px; opacity: 0.45; transform: scaleX(-1); pointer-events: none; }
+.cta__deco-tl { position: absolute; top: 20px; left: 30px; width: 200px; opacity: 0.85; pointer-events: none; }
+.cta__deco-br { position: absolute; bottom: 20px; right: 30px; width: 220px; opacity: 0.85; transform: scaleX(-1); pointer-events: none; }
 
 .cta__eyebrow {
   font-family: var(--font-en-script);
