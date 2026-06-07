@@ -281,8 +281,11 @@ body.drawer-open .nav__cta {
   overflow: hidden;
   box-shadow: var(--shadow-lg);
 }
-.hero__visual-frame img {
+.hero__visual-frame img,
+.hero__visual-frame video,
+.hero__visual-video {
   width: 100%; height: 100%; object-fit: cover;
+  display: block;
 }
 .hero__visual-badge {
   position: absolute;
