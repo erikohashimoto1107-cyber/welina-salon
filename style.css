@@ -1330,3 +1330,17 @@ body.drawer-open .nav__cta {
   .hero__scroll { display: none; }
   .cta { padding: 80px 24px; }
 }
+
+/* =================== 動きに敏感なユーザーへの配慮 =================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* スクロール表示要素は最初から表示（動きなしで内容を保証） */
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
