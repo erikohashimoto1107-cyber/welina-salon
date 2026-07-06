@@ -14,3 +14,6 @@ CLAUDE.md
 .idea/
 *.swp
 *.swo
+
+# サイトと無関係のためgit管理外
+docs/
