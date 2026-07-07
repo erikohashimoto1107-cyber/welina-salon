@@ -665,6 +665,17 @@ body.drawer-open .nav__cta {
   letter-spacing: 0.2em;
   padding: 4px 10px;
   border-radius: 999px;
+  z-index: 2;
+}
+/* 最上位コース（マカナ）の特別バッジ */
+.menu-item__badge--top {
+  background: linear-gradient(135deg, var(--teal-500), var(--teal-700));
+  box-shadow: 0 4px 12px rgba(36, 111, 117, 0.35);
+}
+/* 最上位カードは枠で少し格上げ */
+.menu-item--flagship {
+  border: 1.5px solid var(--gold);
+  box-shadow: var(--shadow-md);
 }
 
 .menu__note {
