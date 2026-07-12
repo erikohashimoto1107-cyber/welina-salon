@@ -219,6 +219,14 @@ body.drawer-open .nav__cta {
   margin: 0 4px;
   font-style: normal;
 }
+/* ヒーローのサブキャッチ（旧メインコピー） */
+.hero__catch {
+  font-family: var(--font-jp-serif);
+  font-size: clamp(16px, 1.8vw, 20px);
+  color: var(--teal-600);
+  letter-spacing: 0.12em;
+  margin-bottom: 14px;
+}
 .hero__title-sub {
   font-family: var(--font-en-serif);
   font-style: italic;
@@ -370,6 +378,26 @@ body.drawer-open .nav__cta {
   line-height: 2.1;
   max-width: 640px;
   margin: 0 auto 64px;
+}
+
+/* サロン理念（Welina Philosophy） */
+.philosophy__body {
+  font-family: var(--font-jp-serif);
+  font-size: clamp(15px, 1.7vw, 18px);
+  text-align: center;
+  color: var(--ink-soft);
+  line-height: 2.4;
+  max-width: 680px;
+  margin: 28px auto 0;
+  letter-spacing: 0.06em;
+}
+.philosophy__accent {
+  font-style: normal;
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--teal-700);
+  font-size: 1.15em;
+  letter-spacing: 0.1em;
 }
 
 /* コンセプトセクションのタイトルは長いため文字サイズを調整 */
