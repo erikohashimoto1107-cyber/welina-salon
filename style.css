@@ -1383,3 +1383,46 @@ body.drawer-open .nav__cta {
   /* スクロール表示要素は最初から表示（動きなしで内容を保証） */
   .reveal { opacity: 1 !important; transform: none !important; }
 }
+
+/* ============== CANCEL POLICY ============== */
+.cancel { background: var(--cream); }
+.cancel__card {
+  max-width: 1000px;
+  margin: 48px auto 0;
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 40px 32px;
+  box-shadow: var(--shadow-sm);
+}
+.cancel__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-jp-sans);
+  color: var(--ink);
+}
+.cancel__table th {
+  background: var(--teal-50);
+  color: var(--teal-700);
+  font-weight: 700;
+  text-align: left;
+  padding: 20px 18px;
+  letter-spacing: 0.05em;
+}
+.cancel__table td {
+  padding: 22px 18px;
+  border-bottom: 1px solid var(--sand);
+}
+.cancel__notes {
+  margin: 28px 0 0;
+  padding-left: 1.2em;
+  list-style: disc;
+  color: var(--ink-soft);
+  font-family: var(--font-jp-sans);
+  font-size: 15px;
+  line-height: 2;
+}
+@media (max-width: 600px) {
+  .cancel__card { padding: 24px 16px; border-radius: var(--radius); }
+  .cancel__table th, .cancel__table td { padding: 14px 10px; font-size: 14px; }
+  .cancel__notes { font-size: 14px; }
+}
