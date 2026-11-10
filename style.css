@@ -704,7 +704,9 @@ body.drawer-open .nav__cta {
 .menu-item--flagship {
   border: 1.5px solid var(--gold);
   box-shadow: var(--shadow-md);
+  grid-column: 1 / -1;
 }
+.menu-item__title small { font-size: 0.7em; font-weight: inherit; }
 
 .menu__note {
   text-align: center;
