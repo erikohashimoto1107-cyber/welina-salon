@@ -204,7 +204,7 @@ body.drawer-open .nav__cta {
 }
 .hero__title {
   font-family: var(--font-jp-serif);
-  font-size: clamp(36px, 4.8vw, 64px);
+  font-size: clamp(24px, 3.1vw, 42px);
   font-weight: 500;
   line-height: 1.35;
   color: var(--teal-900);
@@ -1433,4 +1433,10 @@ body.drawer-open .nav__cta {
   .cancel__card { padding: 24px 16px; border-radius: var(--radius); }
   .cancel__table th, .cancel__table td { padding: 14px 10px; font-size: 14px; }
   .cancel__notes { font-size: 14px; }
+}
+
+/* hero headline tweaks */
+.hero__title-line { white-space: nowrap; }
+@media (max-width: 480px) {
+  .hero__eyebrow { white-space: nowrap; font-size: 12px; }
 }
