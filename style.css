@@ -706,6 +706,12 @@ body.drawer-open .nav__cta {
   box-shadow: var(--shadow-md);
   grid-column: 1 / -1;
 }
+.menu-item--first {
+  grid-column: 1 / -1;
+  border: 1.5px solid var(--teal-500);
+  box-shadow: var(--shadow-md);
+}
+.menu-item__badge--first { background: var(--teal-500); color: #fff; }
 .menu-item__title small { font-size: 0.7em; font-weight: inherit; }
 
 .menu__note {
