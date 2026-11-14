@@ -714,6 +714,34 @@ body.drawer-open .nav__cta {
 .menu-item__badge--first { background: var(--teal-500); color: #fff; }
 .menu-item__title small { font-size: 0.7em; font-weight: inherit; }
 
+/* おすすめ（ロミロミ120分）：横いっぱい・金の枠 */
+.menu-item--recommend {
+  grid-column: 1 / -1;
+  border: 1.5px solid var(--gold);
+  box-shadow: var(--shadow-md);
+}
+/* フェイシャル付きコース：小さめのカード（写真なし） */
+.menu__subhead {
+  grid-column: 1 / -1;
+  font-family: var(--font-jp-serif);
+  font-size: 15px;
+  color: var(--teal-700);
+  letter-spacing: 0.1em;
+  margin: 12px 0 -12px;
+  text-align: center;
+}
+.menu-item--compact {
+  grid-template-columns: 1fr;
+  padding: 18px 20px;
+  gap: 0;
+}
+.menu-item--compact .menu-item__img { display: none; }
+.menu-item--compact .menu-item__title { font-size: 17px; margin: 0 0 8px; }
+.menu-item--compact .menu-item__for { font-size: 12px; }
+.menu-item--compact .menu-item__desc { font-size: 12px; line-height: 1.8; margin-bottom: 10px; }
+.menu-item--compact .menu-item__meta { padding-top: 10px; }
+.menu-item--compact .menu-item__price { font-size: 20px; }
+
 .menu__note {
   text-align: center;
   margin-top: 36px;
